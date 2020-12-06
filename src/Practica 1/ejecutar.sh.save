@@ -1,0 +1,7 @@
+#!/bin/bash
+#-*- ENCODING: UTG-8 -*-
+read direccion
+nasm -f elf64 Practica1.asm
+ld -o Practica1 Practica1.o
+./Practica1
+exit
